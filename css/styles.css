@@ -29,7 +29,7 @@ a[section] {
   width: 1200px;
 
   padding: 15;
-outline: 1px solid red;
+  outline: 1px solid red;
   text-align: center;
 }
 .page-header .conteiner {
@@ -41,9 +41,7 @@ outline: 1px solid red;
   text-align: center;
   flex-wrap: wrap;
 }
-.div .conteiner {
-  margin-bottom: 94px;
-}
+
 .site-nav .header-link.current {
   color: var(--design-color);
 }
@@ -56,8 +54,15 @@ nav {
   margin-top: 32px;
   margin-bottom: 32px;
 }
-.picture .list .conteiner {
-  margin-bottom: 215px;
+.pic-conteiner {
+  margin-right: 30px;
+  
+}
+.img-conteiner{
+  margin-right: 30px;
+}
+.img-conteiner:nth-child(3n){
+  margin-right: 0;
 }
 .header {
 }
@@ -86,20 +91,23 @@ nav {
   letter-spacing: 0.02em;
   color: var(--first-title-color);
   margin-right: 50px;
-  margin-top: 32;
+  margin-top: 32px;
 }
 .contacts {
   display: flex;
   margin-top: 32;
   margin-bottom: 32;
   color: var(--design-color);
-  
 }
+
 .contacts-link {
   margin-right: 50px;
-  
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
-.header-connect {
+
+.contacts {
+  justify-content: flex-end;
 }
 .contacts-link {
   font-weight: 500;
@@ -107,6 +115,7 @@ nav {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  justify-content: flex-end;
 }
 .header-connect {
   margin-left: auto;
@@ -150,6 +159,10 @@ nav {
   text-transform: uppercase;
   color: var(--first-title-color);
 }
+.team-title{
+  margin-bottom: 50px;
+  text-align: center;
+}
 .topic-inf {
   font-size: 14px;
   line-height: 1.71;
@@ -170,6 +183,10 @@ nav {
   margin-bottom: 50px;
   margin-top: 94px;
 }
+.team-conteiner{
+ 
+;
+}
 .name {
   font-weight: 500;
   font-size: 16px;
@@ -186,13 +203,17 @@ nav {
   color: #757575;
 }
 
-
 .team-section {
   background-color: #f5f4fa;
   padding-top: 94px;
   display: flex;
 }
-
+.conteiner-el{
+  margin-right: 30px;
+}
+.conteiner-el:nth-child(4n){
+  margin-right: 0;
+}
 .address-footer {
   font-style: normal;
   font-size: 14px;
@@ -245,6 +266,29 @@ nav {
   color: var(--first-title-color);
   cursor: pointer;
   min-width: 73;
+}
+.flex-btn{
+  margin-top: 94px;
+  text-align: center;
+}
+.flex-conteiner{
+  flex-wrap: wrap;
+  display: flex;
+  width: 1170px;
+  outline: 1px solid red;
+  margin-top: 34px;
+  text-align: center;
+  justify-content: space-between;
+}
+.flex-el{
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.flex-el:nth-child(3n) {
+  margin-right: 0;
+}
+.flex-el:nth-last-child(-n+3){
+  margin-bottom: 0;
 }
 
 .project-title {
