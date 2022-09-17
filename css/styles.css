@@ -348,6 +348,7 @@ nav {
   color: var(--first-title-color);
   cursor: pointer;
   min-width: 73;
+  border: none
 }
 .flex-btn{
   margin-top: 94px;
