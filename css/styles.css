@@ -20,11 +20,11 @@ a {
 h2 {
   margin: 0;
 }
-h3{
+h3 {
   margin: 0;
   padding: 0;
 }
-p{
+p {
   margin: 0;
   padding: 0;
 }
@@ -53,7 +53,6 @@ img {
   outline: 1px solid red;*/
   text-align: center;
   justify-content: center;
-  
 }
 .page-header .conteiner {
   justify-content: center;
@@ -86,8 +85,6 @@ nav {
 }
 .site-nav .header-item {
   margin-right: 50px;
-
-  
 }
 
 .site-nav .header-item:last-child {
@@ -95,8 +92,6 @@ nav {
 }
 
 .header {
-  
-  
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -105,7 +100,6 @@ nav {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
-  
 }
 .logo-web {
   color: var(--design-color);
@@ -208,8 +202,11 @@ nav {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-title-color);
+  margin-bottom: 10px;
+  
 }
 .topic-inf {
+  
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -224,14 +221,12 @@ nav {
   padding-top: 0;
 }
 .picture-title {
-  padding-bottom: 50px;
- 
+  margin-bottom: 50px;
 
   text-align: center;
 }
 
 .img-conteiner {
- 
 }
 .pic-conteiner {
   padding-left: 15px;
@@ -250,14 +245,12 @@ nav {
 
 /*4 coteiner--------------------------*/
 
-
 .team-section {
-  
   text-align: center;
   flex-wrap: wrap;
   background-color: #f5f4fa;
   display: flex;
-  width: 1600px;
+  max-width: 1600px;
 }
 .card {
   padding-top: 30px;
@@ -265,15 +258,14 @@ nav {
   margin: 0;
   width: 270px;
   background-color: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
-
 .team-title {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   text-align: center;
-  
 }
 
 .picture-title,
@@ -290,7 +282,6 @@ border-radius: 0px 0px 4px 4px;
 .team-conteiner {
 }
 .name {
-  
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -300,7 +291,6 @@ border-radius: 0px 0px 4px 4px;
   color: var(--first-title-color);
 }
 .position {
-  
   margin: 0;
   font-size: 16px;
   line-height: 1.18;
@@ -327,13 +317,11 @@ border-radius: 0px 0px 4px 4px;
   justify-content: start;
   display: block;
   width: 1200px;
-  
-  
 }
 .footer-conteiner {
   display: block;
   text-align: start;
-  
+
   padding-top: 60px;
   padding-bottom: 60px;
   margin: 0;
@@ -344,9 +332,8 @@ border-radius: 0px 0px 4px 4px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-  padding-top: 20px;
-  text-align: start;
   
+  text-align: start;
 }
 .footer-mail,
 .footer-tel {
@@ -366,10 +353,11 @@ border-radius: 0px 0px 4px 4px;
   letter-spacing: 0.03em;
   color: #ffffff;
   text-align: start;
-  margin-bottom: 20px;
+  
 }
 .footer-address {
   margin: 0;
+  margin-top: 20px ;
 }
 
 .footer-address > a:focus {
@@ -401,7 +389,7 @@ border-radius: 0px 0px 4px 4px;
 .button-conteiner {
   justify-content: center;
   text-align: center;
-  width: 1600px;
+  max-width: 1600px;
   display: block;
   background-color: #fff;
 }
@@ -426,7 +414,6 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .flex-btn {
-  
   text-align: center;
   margin-bottom: 34px;
 }
@@ -435,24 +422,22 @@ border-radius: 0px 0px 4px 4px;
   justify-content: center;
 }
 .card-port {
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   border-top: 0;
   text-align: start;
-  padding: 20px 24px ;
+  padding: 20px 24px;
 }
 .set-conteiner {
-  
-  
   text-align: center;
-  
-  width: 1600px;
+
+  max-width: 1600px;
 }
 .flex-conteiner {
   flex-wrap: wrap;
   display: flex;
   width: 1200px;
   /*outline: 1px solid red;*/
-  padding: 0 15px ;
+  padding: 0 15px;
   background-color: #2196f 3;
   text-align: center;
 
@@ -468,8 +453,9 @@ border-radius: 0px 0px 4px 4px;
   margin-right: 0;
   margin-top: 0;
 }
-
-
+.flex-el:nth-child(n + 7){
+  margin-bottom: 0;
+}
 
 .project-title {
   font-weight: 700;
@@ -478,8 +464,6 @@ border-radius: 0px 0px 4px 4px;
   letter-spacing: 0.06em;
   color: var(--first-title-color);
   margin-bottom: 4px;
- 
-  margin: 0;
 }
 .project-type {
   font-size: 16px;
@@ -487,7 +471,6 @@ border-radius: 0px 0px 4px 4px;
   letter-spacing: 0.03em;
   color: #757575;
   margin: 0;
-  
 }
 
 .portfolio-btn-link:hover {
