@@ -5,6 +5,7 @@ body {
 ul {
   margin-block-start: 0;
   padding-inline-start: 0px;
+  list-style: none;
 }
 .list {
   margin: 0%;
@@ -148,12 +149,14 @@ nav {
 /*герой----------------------------*/
 
 .hero {
+  padding-bottom: 200px;
+  padding-top: 200px;
   background-color: #2f303a;
   margin-top: 0;
   max-width: 1600px;
   display: block;
   text-align: center;
-  padding-bottom: 200px;
+  
   width: auto;
   list-style: none;
 }
@@ -161,7 +164,7 @@ nav {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  padding-top: 200px;
+  
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
